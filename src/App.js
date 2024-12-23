@@ -24,7 +24,7 @@ function App() {
 
   const calculateMilestone = () => {
     if (!birthday || !timeOfBirth) {
-      alert("Please select your date of birth!");
+      alert("Please select your date and Time of birth!");
       return;
     }
 
